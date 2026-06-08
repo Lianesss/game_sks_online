@@ -33,10 +33,32 @@
 ## Установка и запуск
 
 ```bash
-git clone https://github.com/your-team/sks-quest
+git clone https://github.com/Lianesss/game_sks_online.git
 cd sks_quest
 flutter pub get
 flutter run
+```
+
+### Сборка Android APK
+
+```bash
+flutter build apk --release
+```
+
+Готовый файл появится здесь:
+
+```text
+build/app/outputs/flutter-apk/app-release.apk
+```
+
+### Установка APK на Android
+
+1. Подключите Android-устройство или запустите эмулятор.
+2. Разрешите установку приложений из неизвестных источников (если нужно).
+3. Установите APK командой:
+
+```bash
+adb install -r build/app/outputs/flutter-apk/app-release.apk
 ```
 
 ## Демо-данные
