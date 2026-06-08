@@ -84,8 +84,9 @@ lib/
 
 ## Команда
 
-> Укажи здесь состав своей команды
+> Исмагилов Айваз
+> ....
 
 ## Контакты
 
-Вопросы по ТЗ: @Peter_Welch, @mysonisalawyer (Telegram)
+Вопросы: @korolev1ch (Telegram)
